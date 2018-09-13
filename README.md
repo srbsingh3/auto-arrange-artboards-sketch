@@ -1,3 +1,3 @@
 # Auto Arrange- The Sketch Plugin
 
-![The plugin in action](screeFinal-GIF-2.gif)
+![The plugin in action](Final-GIF-2.gif)
