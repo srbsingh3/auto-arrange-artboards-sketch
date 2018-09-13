@@ -1,2 +1,3 @@
-# autoarrange
-Auto arrange artboards with this Sketch plugin.
+# Auto Arrange- The Sketch Plugin
+
+
