@@ -1,0 +1,18 @@
+{
+    "name" : "AutoArrange",
+    "identifier" : "AutoArrange.plugin",
+    "version" : "1.0",
+    "description" : "Arrange artboard list based on the artboard's position on the canvas.",
+    "authorEmail" : "srbsingh3@gmail.com",
+    "author" : "Saurabh Singh",
+
+    "commands" : [
+    {
+      "script" : "MyScript.js",
+      "handler" : "onRun",
+      "shortcut" : "command alt G",
+      "name" : "AutoArrange",
+      "identifier" : "AutoArrange.plugin.pagenames"
+    }
+  ],
+}
