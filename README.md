@@ -21,5 +21,5 @@ The Sketch plugin arranges the artboard order in the layer-list based on their p
 
 ## The Future
 1. The plugin takes around a minute to arrange the artboards if the Sketch file is large. I am trying to make it faster.
-   ## Update: I found the issues that were making the plugin slow and now the plugin works well for Sketch files of any size.
+   **Update: I found the issues that were making the plugin slow and now the plugin works well for Sketch files of any size.**
 2. I am working on adding the functionality to automatically rename the artboards according to their position in the canvas.
