@@ -8,11 +8,18 @@
 
     "commands" : [
     {
-      "script" : "MyScript.js",
+      "script" : "leftToRight.js",
       "handler" : "onRun",
-      "shortcut" : "command alt G",
-      "name" : "AutoArrange",
-      "identifier" : "AutoArrange.plugin.pagenames"
+      "shortcut" : "",
+      "name" : "Arrange from Left to Right",
+      "identifier" : "AutoArrange.plugin.left"
+    },
+    {
+      "script" : "topToBottom.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Arrange from Top to Bottom",
+      "identifier" : "AutoArrange.plugin.top"
     }
   ],
 }
