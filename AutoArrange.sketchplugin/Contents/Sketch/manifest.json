@@ -1,6 +1,7 @@
 {
     "name" : "AutoArrange",
     "identifier" : "AutoArrange.plugin",
+    "appcast": "https://api.sketchpacks.com/v1/plugins/AutoArrange.plugin/appcast",
     "version" : "1.0",
     "description" : "Arrange artboard list based on the artboard's position on the canvas.",
     "authorEmail" : "srbsingh3@gmail.com",
