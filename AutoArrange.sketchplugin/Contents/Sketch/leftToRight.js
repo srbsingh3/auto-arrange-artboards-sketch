@@ -64,7 +64,7 @@ var ordered = artboards.sort(function(a,b) {
     (Math.abs(a.frame.y - b.frame.y) < b.frame.height)
     // && (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) != 0)
   ) {
-    compareY = 1;
+    compareY = 0;
   }
   if (compareY != 0) {
     return compareY;
