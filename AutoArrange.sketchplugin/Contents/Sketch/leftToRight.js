@@ -35,19 +35,19 @@ var onRun = function(context) {
 // console.log(ordered);
 
 // --- Align Artboards ---
-var myFunction = function(givenArtboard) {
-  for (i = 0; i < artboards.length; i++) {
-    if (
-      (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) < givenArtboard.frame.height) &&
-      (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) < artboards[i].frame.height)
-      // && (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) != 0)
-    ) {
-      artboards[i].frame.y = givenArtboard.frame.y;
-    }
-  }
-}
+// var myFunction = function(givenArtboard) {
+//   for (i = 0; i < artboards.length; i++) {
+//     if (
+//       (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) < givenArtboard.frame.height) &&
+//       (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) < artboards[i].frame.height)
+//       // && (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) != 0)
+//     ) {
+//       artboards[i].frame.y = givenArtboard.frame.y;
+//     }
+//   }
+// }
 
-artboards.forEach(myFunction);
+// artboards.forEach(myFunction);
 
 // --- Failed Align Artboards Code ---
 // for (i = 0; i < artboards.length; i++) {
@@ -59,6 +59,13 @@ artboards.forEach(myFunction);
 //--- Horizontal Sorting ---
 var ordered = artboards.sort(function(a,b) {
   var compareY = a.frame.y - b.frame.y;
+  if (
+    (Math.abs(a.frame.y - b.frame.y) < a.frame.height) &&
+    (Math.abs(a.frame.y - b.frame.y) < b.frame.height)
+    // && (Math.abs(givenArtboard.frame.y - artboards[i].frame.y) != 0)
+  ) {
+    compareY = 1;
+  }
   if (compareY != 0) {
     return compareY;
   } else {
