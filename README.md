@@ -1,4 +1,4 @@
-# Auto Arrange Artboards- The Sketch Plugin
+# Auto Arrange Artboards- Sketch Plugin
 ![The plugin in action](Final-GIF-2.gif)
 
 ## The Problem
