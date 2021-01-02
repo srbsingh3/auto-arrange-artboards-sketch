@@ -71,6 +71,6 @@ for (var i = 0; i < ordered.length; i++) {
   ordered[i].moveToBack();
 }
 
-sketch.UI.message('Artboards in your layer-list have been sorted horizontally.');
+sketch.UI.message('Artboards in your layer-list have been arranged horizontally.');
   
 }
